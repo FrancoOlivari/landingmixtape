@@ -7,13 +7,13 @@ body{
 	clear: both;
 }
 #landing{
-	width: 100%;
+	max-width: 100%;
 	background-color: #2E253F;
 	background-image: url("../images/mixtape-bg2.png");
 	background-size: 50%;
 	background-repeat: no-repeat;
 	background-position: top center;
-	height: 800px;
+	max-height: 100%;
 }
 #mixtapelogo{
 	width: 30%;
@@ -64,4 +64,56 @@ p a{
 p a:hover{
 	text-decoration: none;
 	color: #5D67FF;
+}
+#last{
+	display: none;
+}
+@media (max-width: 860px){
+	#landing{
+		background-size: 70%;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	#caja{
+		padding-top: 50px;
+		width: 35%;
+		margin-top: -85px;
+	}
+	#mixtapelogo{
+		width: 50%;
+	}
+	#navbar{
+		width: 45%;
+		padding: 5px;
+		margin-top: -150px;
+	}
+	#mixtapeknife{
+		width: 16.5%;
+		margin-top: 30px;
+	}
+	#last{
+		display: inline;
+	}
+}
+@media (max-width: 370px){
+	#landing{
+		background-size: 100%;
+	}
+	#caja{
+		padding-top: 60px;
+		width: 80%;
+		margin-top: -80px;
+	}
+	#mixtapelogo{
+		width: 100%;
+	}
+	#navbar{
+		width: 100%;
+		padding: 5px;
+		margin-top: -150px;
+	}
+	#mixtapeknife{
+		width: 40%;
+		margin-top: 30px;
+	}
 }
