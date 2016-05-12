@@ -2,6 +2,7 @@
 body{
 	margin: 0;
 	border: none;
+	background-color: #2E253F;
 }
 .cleaner{
 	clear: both;
@@ -42,6 +43,7 @@ p{
 	margin: auto;
 	width: 10%;
 	margin-top: 48px;
+	margin-bottom: 0;
 }
 #navbar{
 	width: 35%;
